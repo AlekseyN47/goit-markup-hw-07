@@ -241,13 +241,24 @@ background-color: #404BBF;
 
 
 .our-skills-flex {
-    display: flex;
+    /* display: flex; */
 }
 
 .our-skills-section {
+    width: 100%;
     padding-top: 120px; 
     padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
+
+@media screen and (min-width: 500px){
+    .our-skills-section {
+        color: teal;
+    }
+}
+
 
 .our {
     margin-right: 24px;
@@ -1018,3 +1029,5 @@ color: var(--interactive-elements);
 .submit-button:focus {
     background-color: #404BBF;
 }
+
+
