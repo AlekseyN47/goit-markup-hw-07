@@ -221,32 +221,36 @@ background-color: #404BBF;
 .our-skills-header {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .our-skills-text {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
     margin-top: 8px; 
-    min-width: 264px;
+    min-width: 396px;
+    align-self: stretch;
 }
 
 
 
 .our-skills-flex {
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
 }
 
 .our-skills-section {
     width: 100%;
-    padding-top: 120px; 
-    padding-bottom: 120px;
+    padding-top: 96px; 
+    padding-bottom: 96px;
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
@@ -299,8 +303,11 @@ background-color: #404BBF;
 }
 
 .team-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
 }
 
 .our-team-bg {
@@ -322,7 +329,10 @@ background-color: #404BBF;
 
 .our-team-list {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     gap: 24px;
+
 }
 
 .our-team-svg-list {
@@ -382,7 +392,8 @@ background-color: #404BBF;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72) / 4);
+    width: 264px;
+    align-self: center;
 }
 
 .teammate-paddings {
