@@ -235,8 +235,6 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
     margin-top: 8px; 
-    
-    align-self: stretch;
 }
 
 
@@ -257,7 +255,7 @@ background-color: #404BBF;
 }
 
 .our {
-    margin-right: 24px;
+    /* margin-right: 24px; */
 }
 
 .no-mr-right {
