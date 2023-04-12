@@ -53,13 +53,13 @@ body {
     padding: 0;
 }
 
-.container {
+/* .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
 .list{
     list-style: none;
@@ -331,7 +331,7 @@ background-color: #404BBF;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 24px;
+    gap: 72px;
 
 }
 
