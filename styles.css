@@ -402,6 +402,8 @@ background-color: #404BBF;
     align-items: center;
 }
 
+/* CLIENTS */
+
 .customers-header {
     font-size: 36px;
     display: flex;
@@ -411,6 +413,8 @@ background-color: #404BBF;
 
 .customers-list {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24px;
@@ -421,11 +425,14 @@ background-color: #404BBF;
     padding-top: 120px;
 }
 
+.customers-list-item {
+    width: calc((100% - 16px) / 2);
+}
+
 .customers-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
