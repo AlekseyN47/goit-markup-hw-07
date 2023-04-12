@@ -235,7 +235,7 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
     margin-top: 8px; 
-    min-width: 396px;
+    
     align-self: stretch;
 }
 
@@ -332,7 +332,7 @@ background-color: #404BBF;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 72px;
-
+    align-items: center;
 }
 
 .our-team-svg-list {
@@ -393,7 +393,7 @@ background-color: #404BBF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: 264px;
-    align-self: center;
+    
 }
 
 .teammate-paddings {
