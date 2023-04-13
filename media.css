@@ -1,6 +1,7 @@
 
 @media screen and (min-width: 480px){
-    .our-skills-section {
+    .our-skills-section,
+    .clients-section {
         width: 428px;
     }
 }
