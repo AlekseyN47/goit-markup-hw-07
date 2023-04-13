@@ -421,8 +421,12 @@ background-color: #404BBF;
 }
 
 .clients-section {
-    padding-bottom: 120px;
-    padding-top: 120px;
+    width: 100%;
+    padding-top: 96px; 
+    padding-bottom: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
 }
 
 .customers-list-item {
