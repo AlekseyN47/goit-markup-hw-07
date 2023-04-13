@@ -4,16 +4,39 @@
     .clients-section {
         width: 428px;
     }
+
+    .subscribe-input {
+        width: 396px;
+    }
 }
 
 @media screen and (min-width: 768px){
-    .our-skills-section {
+    .our-skills-section,
+    .clients-section {
         width: 768px;
+    }
+
+    .customers-list {
+        column-gap: 24px;
+    }
+
+    .our-team-list {
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+
+    .customers-list-item {
+        width: calc((100% - 24px) / 4);
+    }
+
+    .teammate-card {
+        width: calc((100% - 24px) / 2); 
     }
 }
 
 @media screen and (min-width: 1200px){
-    .our-skills-section {
+    .our-skills-section,
+    .clients-section {
         width: 1158px;
     }
 }
