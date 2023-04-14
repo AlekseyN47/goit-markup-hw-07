@@ -242,7 +242,7 @@ background-color: #404BBF;
 .our-skills-flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px;
+    row-gap: 72px;
 }
 
 .our-skills-section {
@@ -328,9 +328,10 @@ background-color: #404BBF;
 .our-team-list {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     gap: 72px;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .our-team-svg-list {
