@@ -641,6 +641,7 @@ color: var(--interactive-elements);
     height: 40px;
     display: flex;
     align-items: center;
+    color: #FFFFFF;
 }
 
 .subscribe-input::placeholder {

@@ -41,8 +41,42 @@
         margin-left: auto;
     }
 
+    .our-skills-header {
+        text-align: left;
+    }
+
     .our {
         width: calc((100% - 24px) / 2);
+    }
+
+    .flex-footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        column-gap: 24px;
+        margin-left: 108px;
+    }
+
+    .footer-text-container {
+        align-items: start;
+    }
+
+    .footer-container {
+        align-items: start;
+    }
+
+    .form-flex {
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .subscribe-form {
+        align-items: start;
+    }
+
+    .subscribe-input {
+        width: 264px;
     }
 }
 
