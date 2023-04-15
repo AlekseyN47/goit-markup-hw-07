@@ -18,6 +18,9 @@
 
     .customers-list {
         column-gap: 24px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 16px;
     }
 
     .our-team-list {
@@ -55,6 +58,10 @@
         justify-content: start;
         column-gap: 24px;
         margin-left: 108px;
+        width: 582px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 16px;
     }
 
     .footer-text-container {
@@ -145,17 +152,22 @@
     }
 
     .footer {
-        padding: 100px;
+        padding: 100px 0;
     }
 
     .flex-footer-container {
         margin: 0;
         gap: 0;
+        flex-wrap: nowrap;
     }
 
-    /* .container {
+    .container {
         width: 1158px;
-    } */
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
     .footer-container {
         margin-left: 120px;
