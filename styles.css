@@ -53,13 +53,13 @@ body {
     padding: 0;
 }
 
-/* .container {
+.container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
-} */
+}
 
 .list{
     list-style: none;
@@ -268,7 +268,7 @@ background-color: #404BBF;
     border-radius: 4px;
     width: 264px;
     height: 112px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -276,6 +276,7 @@ background-color: #404BBF;
 /* ---works--- */
 
 .works-section {
+    display: none;
     padding-bottom: 120px;
 }
 
@@ -291,14 +292,15 @@ background-color: #404BBF;
     white-space: nowrap;
 }
 
+
+
 .works-list {
     display: flex;
     gap: 24px;
 }
 
-.works-image {
-    width: calc((100% - 48px) / 3);
-}
+/* .works-image {   
+} */
 
 .team-section {
     padding-top: 96px;

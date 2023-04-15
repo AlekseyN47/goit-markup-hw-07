@@ -8,6 +8,10 @@
     .subscribe-input {
         width: 396px;
     }
+
+    .container {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -78,6 +82,10 @@
     .subscribe-input {
         width: 264px;
     }
+    
+    .container {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -92,5 +100,92 @@
         width: 100%;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .works-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .works-section {
+        display: block;
+        padding: 120px 16px;
+    }
+
+    .our-skills-section {
+        padding-bottom: 0;
+    }
+
+    .our-skills-flex {
+        flex-wrap: nowrap;
+    }
+
+    .our-skills-icon-container {
+        display: flex;
+    }
+
+    .our-skills-header {
+        font-size: 20px;
+    }
+
+    .our-skills-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+        width: 264px;
+    }
+
+    .customers-list {
+        flex-wrap: nowrap;
+    }
+
+    .customers-list-item {
+        width: 168px;
+    }
+
+    .clients-section {
+        padding: 120px 0;
+        width: 100%;
+    }
+
+    .footer {
+        padding: 100px;
+    }
+
+    .flex-footer-container {
+        margin: 0;
+        gap: 0;
+    }
+
+    .container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer-container {
+        margin-left: 120px;
+    }
+    
+    .subscribe-form {
+        margin-left: 80px;
+    }
+
+    .subscribe-input {
+        border-color: #FFFFFF;
+    }
+
+    .subscribe-input::placeholder {
+        opacity: 1;
+    }
+
+    .team-section {
+        padding: 120px 0;
     }
 }
