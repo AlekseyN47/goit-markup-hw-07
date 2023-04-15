@@ -140,6 +140,7 @@
 
     .customers-list {
         flex-wrap: nowrap;
+        padding: 0;
     }
 
     .customers-list-item {
