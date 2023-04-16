@@ -16,6 +16,89 @@
         width: 768px;
     }
 
+    .modal {
+        width: 408px;
+    }
+
+    .hero-section {
+        max-width: 1440px;
+        background-color: #2E2F42;
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+            url(images/hero-bg-tab.jpg);
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        padding-top: 112px;
+        padding-bottom: 112px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0 auto;
+    }   
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+    .hero-section {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+            url(./images/hero-bg-tab-2x.jpg);
+    }
+}
+
+    .hero {
+        font-size: 56px;
+        width: 496px;
+    }
+
+    .btn {
+        margin-top: 36px;
+    }
+
+    .mob-header-menu {
+        display: none;
+    }
+
+    .list-visibility {
+        display: flex;
+    }
+
+    .flex-header {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .flex-header-navigation {
+        display: flex;
+        gap: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 17px;
+    }
+    
+    .tab-contacts {
+        display: flex;flex-direction: column;
+    }
+
+    .contacts {
+        font-size: 12px;
+        line-height: 1.16;
+    }
+    
     .customers-list {
         column-gap: 24px;
         margin-right: auto;
@@ -93,6 +176,61 @@
         width: 1158px;
     }
 
+    .modal {
+        width: 408px;
+    }
+
+    .flex-header-navigation {
+        margin-left: 0;
+    }
+
+    .logo {
+        margin-right: 76px;
+    }
+
+    .tab-contacts {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .contacts {
+        font-size: 16px;
+    }
+
+    .header-container {
+        padding-bottom: 23px;
+    }
+
+    .hero-section {
+        max-width: 1440px;
+        background-color: #2E2F42;
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+            url(images/hero-bg.jpg);
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        padding-top: 188px;
+        padding-bottom: 188px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0 auto;
+    } 
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+    .hero-section {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+            url(./images/hero-bg-2x.jpg);
+    }
+}
+
     .our-team-list {
         column-gap: 24px;
         flex-direction: row;
@@ -160,14 +298,14 @@
         margin: 0;
         gap: 0;
         flex-wrap: nowrap;
+        width: 100%;
+        margin-left: auto;
     }
 
     .container {
-        width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
         margin-right: auto;
-        margin-left: auto;
     }
 
     .footer-container {

@@ -20,28 +20,52 @@
 <body>
 <!-- NAVIGATION -->
     <header class="header-border">     
-        <div class="container header-container">
-                <div class="flex-header">
+        <div class="header-container">
                 <nav class="flex-header">
                     <a href="./index.html" class="logo">
                         <span>Web</span>Studio
                     </a>
-                    <!-- <ul class="list flex-header">
+                    <!-- <button type="button" class="mob-header-menu">
+                        <svg class="svg-header-menu" width="29.54" height="18.62">
+                            <use href="./images/symbol-defs-upd.svg#icon-mob-menu"></use>
+                        </svg>
+                    </button> -->
+                    <div class="container">
+                        <button
+                          class="menu-toggle js-open-menu"
+                          aria-expanded="false"
+                          aria-controls="mobile-menu"
+                        >
+                          <svg
+                            width="30"
+                            height="30"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                          <use href="./images/symbol-defs-upd.svg#icon-mob-menu"></use>
+                          </svg>
+                        </button>
+                
+                        <ul class="menu">
+                          <li><a href="" class="link">About</a></li>
+                          <li><a href="" class="link">Products</a></li>
+                          <li><a href="" class="link">Contacts</a></li>
+                          <li><a href="" class="link">Career</a></li>
+                        </ul>
+                      </div>
+                    
+                </nav> 
+                <ul class="list flex-header-navigation list-visibility">
                         <li class="list-item"><a href="./index.html" class="nav link studio-line">Studio</a></li>
                         <li class="list-item"><a href="./portfolio.html" class="nav link">Portfolio</a></li>
                         <li class="list-item"><a href="" class="nav link">Contacts</a></li>
                     </ul>
-                </nav> 
-                    <ul class="list flex-header">
+                    <ul class="list flex-header list-visibility tab-contacts">
                         <li class="list-item"><a href="mailto:info@devstudio.com" class="nav contacts"><span>info@devstudio.com</span></a></li>
                         <li class="list-item"><a href="tel:+110001111111" class="nav contacts"><span>+11 (000) 111-11-11</span></a></li>
-                    </ul> -->
-                    <div class="mob-header-menu">
-                        <svg class="svg-header-menu" width="29.50" height="18.50">
-                            <use href="./images/symbol-defs-upd.svg#icon-mob-menu"></use>
-                        </svg>
-                    </div>
-                </div>
+                    </ul>
+                    
         </div>
 </header> 
 <!-- MAIN -->
@@ -103,9 +127,27 @@
             <section class="container works-section">
                     <h2 class="works-header">What are we doing</h2>
                     <ul class="list works-list">
-                        <li class="list-item works-image"><img src="images/img1.jpg" alt="Rectangle 71" width="360" height="300"></li>
-                        <li class="list-item works-image"><img src="images/img2.jpg" alt="Rectangle 71" width="360" height="300"></li>
-                        <li class="list-item works-image"><img src="images/img3.jpg" alt="Rectangle 71" width="360" height="300"></li>
+                        <li class="list-item works-image">
+                            <img 
+                                srcset="images/img1-2x.jpg 2x"
+                                src="images/img1.jpg" 
+                                alt="Rectangle 71" 
+                                width="360" 
+                                height="300"></li>
+                        <li class="list-item works-image">
+                            <img 
+                                srcset="images/img2-2x.jpg 2x"
+                                src="images/img2.jpg" 
+                                alt="Rectangle 71" 
+                                width="360" 
+                                height="300"></li>
+                        <li class="list-item works-image">
+                            <img 
+                                srcset="images/img3-2x.jpg 2x"
+                                src="images/img3.jpg" 
+                                alt="Rectangle 71" 
+                                width="360" 
+                                height="300"></li>
                     </ul>
             </section>
             <!-- OUR TEAM -->
@@ -114,7 +156,12 @@
                     <h2 class="our-team-header">Our Team</h2>
                     <ul class="list our-team-list">
                         <li class="list-item teammate-card">
-                            <img src="images/foto1.jpg" alt="teammate" width="264" height="260">
+                            <img
+                            srcset="images/foto1-2x.jpg 2x" 
+                            src="images/foto1.jpg" 
+                            alt="teammate" 
+                            width="264" 
+                            height="260">
                         <div class="teammate-paddings">
                             <h3 class="teammates-title teammate-title-loc">Mark Guerrero</h3>
                                 <p class="teammate-description teammate-text">Product Designer</p>
@@ -153,7 +200,12 @@
                         </li>
                         
                         <li class="list-item teammate-card">
-                            <img src="images/foto2.jpg" alt="teammate" width="264" height="260">
+                            <img
+                            srcset="images/foto2-2x.jpg 2x" 
+                            src="images/foto2.jpg" 
+                            alt="teammate" 
+                            width="264" 
+                            height="260">
                         <div class="teammate-paddings">
                             <h3 class="teammates-title teammate-title-loc">Tom Ford</h3>
                                 <p class="teammate-description teammate-text">Frontend Developer</p>
@@ -192,7 +244,12 @@
                         </li>
             
                         <li class="list-item teammate-card">
-                            <img src="images/foto3.jpg" alt="teammate" width="264" height="260">
+                            <img
+                            srcset="images/foto3-2x.jpg 2x" 
+                            src="images/foto3.jpg" 
+                            alt="teammate" 
+                            width="264" 
+                            height="260">
                         <div class="teammate-paddings">
                             <h3 class="teammates-title teammate-title-loc">Camila Garcia</h3>
                                 <p class="teammate-description teammate-text">Marketing</p>
@@ -231,7 +288,12 @@
                         </li>
                         
                         <li class="list-item teammate-card">
-                            <img src="images/foto4.jpg" alt="teammate" width="264" height="260">
+                            <img
+                            srcset="images/foto4-2x.jpg 2x" 
+                            src="images/foto4.jpg" 
+                            alt="teammate" 
+                            width="264" 
+                            height="260">
                         <div class="teammate-paddings">
                             <h3 class="teammates-title teammate-title-loc">Daniel Wilson</h3>
                                 <p class="teammate-description teammate-text">UI Designer</p>
@@ -396,7 +458,7 @@
         </form>
     </div>
     </footer>
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
                 <svg class="modal-close-icon">
@@ -437,6 +499,68 @@
             </form>
         </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <button type="button" class="modal-close-btn-menu" data-modal-close>
+                <svg class="modal-close-icon">
+                    <use href="./images/symbol-defs-upd.svg#icon-close-modal"></use>
+                </svg>
+            </button>
+        </button>
+        
+            <ul class="mobile-menu">
+              <li class="mob-link-size"><a href="" class="link mob-link">Studio</a></li>
+              <li class="mob-link-size"><a href="" class="link mob-link">Portfolio</a></li>
+              <li class="mob-link-size"><a href="" class="link mob-link">Contacts</a></li>
+            </ul>
+            <ul class="mobile-menu-contacts">
+              <li class="list-item"><a href="mailto:info@devstudio.com" class="nav contacts mob-contacts"><span>+11 (000) 111-11-11</span></a></li>
+              <li class="list-item"><a href="tel:+110001111111" class="nav contacts mob-contacts"><span>info@devstudio.com</span></a></li>
+            </ul>
+            <ul class="mob-link-container list">
+                <li class="list-item">
+                    <a href="" class="mob-menu-link">
+                        <svg class="menu-icon">
+                            <use href="./images/symbol-defs-upd.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                        
+                        
+                <li class="list-item">
+                    <a href="" class="mob-menu-link">
+                        <svg class="menu-icon">
+                            <use href="./images/symbol-defs-upd.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                        
+                        
+                <li class="list-item">
+                    <a href="" class="mob-menu-link">
+                        <svg class="menu-icon">
+                            <use href="./images/symbol-defs-upd.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                        
+                        
+                <li class="list-item">
+                    <a href="" class="mob-menu-link">
+                        <svg class="menu-icon">
+                            <use href="./images/symbol-defs-upd.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+      </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
 </body>
 </html>
