@@ -33,8 +33,10 @@ body {
 }
 
 .header-container { 
-    padding: 24px;
+    padding-top: 25.5px;
     padding-bottom: 23px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .flex-header {
@@ -161,23 +163,23 @@ color: #404BBF;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)),
-        url(images/people-office.jpg);
+        url(images/hero-bg-mob.jpg);
     
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
 }   
 
 .hero {
     font-weight: 700;
-    font-size: 56px;
+    font-size: 36px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    width: 496px;
+    width: 320px;
     align-self: center;
 }
 
@@ -202,9 +204,9 @@ color: #404BBF;
     border: 0px;
     
     cursor: pointer;
-    margin-left: 480px;
-    margin-right: 479px;
-    margin-top: 48px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 72px;
     display: flex;
     padding: 16px 32px;  
     white-space: nowrap;
